@@ -1,41 +1,90 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: rgba(252, 248, 255, 1);
+  background-color: rgba(252, 248, 255, 1);
 }
 
 .head-purple {
-    background-color: rgba(36, 5, 62, 1);
-    height: 771px;
-    width: 100%;
-    border-radius: 0px 0px 20% 20%;
+  background-color: rgba(36, 5, 62, 1);
+  height: 771px;
+  width: 100%;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header img {
-    margin-left: 160px;
-    margin-top: 54px;
+  margin-left: 160px;
+  margin-top: 54px;
 }
 
 .header p {
-    line-height: 32px;
-    color: white;
-    font-size: 24px;
-    margin-right: 160px;
-    margin-top: 54px;
+  line-height: 32px;
+  color: white;
+  font-size: 24px;
+  margin-right: 160px;
+  margin-top: 54px;
+  font-weight: 700;
+  text-decoration: underline rgba(68, 255, 161, 1);
+  line-height: 32.4px;
+  font-family: sans-serif;
 }
 
-h1 {
-    color: white;
-    font-family: "Inter", serif;
-    text-align: center;
-    font-weight: 600; 
-    line-height: 80px;
+.main-title {
+  color: white;
+  font-family: "Inter", serif;
+  text-align: center;
+  font-weight: 600;
+  line-height: 120px;
+  font-size: 60px;
+  letter-spacing: 1px;
+}
+
+.ornamental {
+  width: 100%;
+  position: absolute;
+  top: 725px;
+  border-radius: 0 0 20px;
+}
+
+.phone {
+  position: absolute;
+  top: 475px;
+  left: 675px;
+}
+
+.head-content a {
+  width: 162px;
+  color: rgba(36, 5, 62, 1);
+  background-color: rgba(68, 255, 161, 1);
+  position: absolute;
+  left: 980px;
+  padding: 15px;
+  text-decoration: none;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.head-content span {
+  text-decoration: underline rgba(68, 255, 161, 1);
+  width: 243px;
+  height: 3px;
+}
+
+.left-effect {
+  position: absolute;
+  top: 150px;
+  left: 0px;
+}
+
+.right-effect {
+  position: absolute;
+  top: 350px;
+  right: 0px;
 }
