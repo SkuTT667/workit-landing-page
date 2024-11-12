@@ -34,6 +34,12 @@ header {
   font-family: sans-serif;
 }
 
+
+.header p:hover {
+  color: rgba(68, 255, 161, 1);
+  cursor: pointer;
+}
+
 .main-title {
   color: white;
   font-family: "Fraunces" 144pt;
@@ -77,6 +83,13 @@ header {
   font-weight: 700;
   font-family: "Manrope";
 }
+
+.head-content a:hover {
+  color: rgba(68, 255, 161, 1); 
+  background-color: #24053e; 
+  border: rgba(68, 255, 161, 1) solid 1px; 
+}
+
 
 .head-content span {
   text-decoration: underline rgba(68, 255, 161, 1) 3px;
@@ -218,6 +231,12 @@ header {
   line-height: 30px;
 }
 
+.card a:hover {
+  color: rgba(68, 255, 161, 1); 
+  background-color: #24053e; 
+  border: rgba(68, 255, 161, 1) solid 1px; 
+}
+
 .card img {
   position: absolute;
   left: 420px;
@@ -230,4 +249,3 @@ footer {
   justify-content: center;
   align-items: center;
 }
-
