@@ -6,10 +6,8 @@ body {
   background-color: rgba(252, 248, 255, 1);
 }
 
-.head-purple {
+header {
   background-color: rgba(36, 5, 62, 1);
-  height: 771px;
-  width: 100%;
 }
 
 .header {
@@ -29,33 +27,41 @@ body {
   font-size: 24px;
   margin-right: 160px;
   margin-top: 54px;
-  font-weight: 700;
+  font-weight: 450;
   text-decoration: underline rgba(68, 255, 161, 1);
+  text-underline-offset: 8px;
   line-height: 32.4px;
   font-family: sans-serif;
 }
 
 .main-title {
   color: white;
-  font-family: "Inter", serif;
+  font-family: "Fraunces" 144pt;
+  font-weight: 530;
+  line-height: 80px;
+  font-size: 80px;
   text-align: center;
-  font-weight: 600;
-  line-height: 120px;
-  font-size: 60px;
-  letter-spacing: 1px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
 }
 
 .ornamental {
   width: 100%;
   position: absolute;
-  top: 725px;
-  border-radius: 0 0 20px;
+  top: 650px;
 }
 
 .phone {
   position: absolute;
-  top: 475px;
-  left: 675px;
+  top: 485px;
+  left: 590px;
+}
+
+.head-content {
+  background-color: rgba(36, 5, 62, 1);
+  height: 630px;
 }
 
 .head-content a {
@@ -63,16 +69,18 @@ body {
   color: rgba(36, 5, 62, 1);
   background-color: rgba(68, 255, 161, 1);
   position: absolute;
-  left: 980px;
+  left: 870px;
   padding: 15px;
   text-decoration: none;
   font-family: sans-serif;
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
+  font-family: "Manrope";
 }
 
 .head-content span {
-  text-decoration: underline rgba(68, 255, 161, 1);
+  text-decoration: underline rgba(68, 255, 161, 1) 3px;
+  text-underline-offset: 8px;
   width: 243px;
   height: 3px;
 }
@@ -87,4 +95,138 @@ body {
   position: absolute;
   top: 350px;
   right: 0px;
+}
+
+.value {
+  margin-top: 182px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 538px;
+  text-align: center;
+}
+
+.first-value {
+  width: 352px;
+}
+
+.first-value h2 {
+  padding-top: 40px;
+  padding-bottom: 22px;
+  font-size: 32px;
+  color: #24053e;
+  font-weight: 600;
+  font-family: "Fraunces" 144pt;
+}
+
+.first-value p {
+  font-size: 18px;
+  color: #24053e;
+  font-weight: 400;
+  font-family: "Manrope";
+  line-height: 32.4px;
+}
+
+.second-value {
+  width: 352px;
+}
+
+.second-value h2 {
+  padding-top: 40px;
+  padding-bottom: 22px;
+  font-size: 32px;
+  color: #24053e;
+  font-weight: 600;
+  font-family: "Fraunces" 144pt;
+}
+
+.second-value p {
+  font-size: 18px;
+  color: #24053e;
+  font-weight: 400;
+  font-family: "Manrope";
+  line-height: 32.4px;
+}
+
+.third-value {
+  width: 352px;
+}
+
+.third-value h2 {
+  padding-top: 40px;
+  padding-bottom: 22px;
+  font-size: 32px;
+  color: #24053e;
+  line-height: 32.4px;
+  font-weight: 600;
+  font-family: "Fraunces" 144pt;
+}
+
+.third-value p {
+  font-size: 18px;
+  color: #24053e;
+  font-weight: 400;
+  font-family: "Manrope";
+  line-height: 32.4px;
+  font-family: "Fraunces" 144pt;
+}
+
+.cta {
+  height: 691px;
+}
+
+.cta-content img {
+  position: absolute;
+  left: 250px;
+}
+
+.card {
+  position: absolute;
+  left: 650px;
+  top: 1600px;
+  width: 730px;
+  height: 411px;
+  background-color: #24053e;
+  padding: 64px;
+}
+
+.card h2 {
+  color: white;
+  font-size: 56px;
+  font-family: "Fraunces" 144pt;
+  line-height: 30.2px;
+  font-weight: 530;
+}
+
+.card p {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 42px;
+  margin-bottom: 62px;
+  font-weight: 400;
+  font-family: "Manrope";
+}
+
+.card a {
+  background-color: #44ffa1;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 14px 24px 14px 24px;
+  color: #24053e;
+  font-family: "Manrope";
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.card img {
+  position: absolute;
+  left: 420px;
+  top: 270px;
+}
+
+footer {
+  padding-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
